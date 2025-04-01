@@ -1,0 +1,4 @@
+{
+    "preset": "laravel",
+    "include": ["app", "routes", "config", "resources"]
+}
