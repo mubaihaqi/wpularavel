@@ -14,8 +14,7 @@ class Post
                 'slug' => 'judul-artikel-1',
                 'title' => 'Judul Artikel 1',
                 'author' => 'Muhammad Umar',
-                'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fugit doloremque
-            sapiente voluptatem itaque cumque commodi eligendi neque delectus illum possimus iure aspernatur laborum expedita aliquam earum, repudiandae voluptatum alias.'
+                'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fugit doloremque sapiente voluptatem itaque cumque commodi eligendi neque delectus illum possimus iure aspernatur laborum expedita aliquam earum, repudiandae voluptatum alias.'
             ],
             [
                 'id' => 2,
