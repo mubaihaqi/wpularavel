@@ -9,10 +9,10 @@
             </a>
             <div class="flex items-center text-base text-gray-500 space-x-1">
                 <p>By</p>
-                <a href="/authors/{{ $post->author->id }}" class="hover:underline">{{ $post->author->name }}
+                <a href="/authors/{{ $post->author->username }}" class="hover:underline">{{ $post->author->name }}
                 </a>
                 <p>in </p>
-                <a href="/categories/{{ $post->category->id }}" class="hover:underline">{{ $post->category->title }}</a>
+                <a href="/categories/{{ $post->category->slug }}" class="hover:underline">{{ $post->category->title }}</a>
                 | {{ $post['created_at']->diffForHumans() }}
             </div>
             <p class="my-4 font-light">{{ Str::limit($post['body'], 100) }}</p>
