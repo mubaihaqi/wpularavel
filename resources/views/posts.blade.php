@@ -15,7 +15,7 @@
                 <p>in </p>
                 <a href="/categories/{{ $post->category->slug }}"
                     class="hover:underline  text-gray-500">{{ $post->category->title }}</a>
-                | {{ $post['created_at']->format('d F Y') }}
+                | {{ $post['created_at']->diffForHumans() }}
             </div>
             <p class="my-4 font-light">{{ Str::limit($post['body'], 100) }}</p>
             <a href="/posts/{{ $post['slug'] }}" class="font-medium text-blue-500 hover:underline">Read more...
