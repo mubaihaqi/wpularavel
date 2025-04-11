@@ -36,7 +36,9 @@
         </div>
     </div>
 
-    <div class="py-4 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-0">
+    {{ $posts->links() }}
+
+    <div class="my-4 py-4 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-0">
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             @forelse ($posts as $post)
                 <article
@@ -79,5 +81,7 @@
             @endforelse
         </div>
     </div>
+
+    {{ $posts->links() }}
 
 </x-layout>
